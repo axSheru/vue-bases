@@ -8,7 +8,12 @@
 
     <!--Vue tendrá control absoluto de este DIV.-->
     <div id="myApp">
-        
+        <h3>{{quote}}</h3>
+        <blockquote>-{{author}}</blockquote>
+
+        <button v-on:click="changeQuote">
+            Change quote
+        </button>
     </div>
     
     <script src="https://unpkg.com/vue@next"></script>
