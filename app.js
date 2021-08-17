@@ -19,7 +19,7 @@ const app = Vue.createApp({
         addQuote(){
             this.quotes.unshift({
                 quote: this.newQuote,
-                author: 'Alex P'
+                //author: 'Alex P'
             })
         }
     }
